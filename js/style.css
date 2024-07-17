@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#downloadcapsule{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 100px;
+}
+
+#progress{
+    transition: all cubic-bezier(0.19,1,0.22,1) .2s;
+    width: 0%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(65,180,65);
+}
+
+#center h3{
+    opacity: 0;
+    margin-bottom: 40px;
+}
